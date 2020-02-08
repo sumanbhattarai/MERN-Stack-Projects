@@ -26,7 +26,7 @@ app.get('api/student' , (req , res)=>{
             age : 22
         }
     ];
-    res.send(student) ;
+    res.json(student) ;
 })
 
 app.listen(port , ()=>{
