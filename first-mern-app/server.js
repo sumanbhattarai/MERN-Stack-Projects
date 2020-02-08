@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const port = 5000 ;
 
-app.get('api/student' , (req , res)=>{
+app.get('/api/student' , (req , res)=>{
     const student = [
         {
             id : 1 ,
